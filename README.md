@@ -10,6 +10,7 @@ Issues:
 
 - speed is a little off
 - needs tweaking for other orientations
+- has trouble with multiple taps before initial animation completes
 
 
 
