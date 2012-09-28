@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2372C216163B4100EAB241 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2372C116163B4100EAB241 /* UIKit.framework */; };
+		0A2372C416163B4100EAB241 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2372C316163B4100EAB241 /* Foundation.framework */; };
+		0A2372C616163B4100EAB241 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2372C516163B4100EAB241 /* CoreGraphics.framework */; };
+		0A2372CC16163B4100EAB241 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A2372CA16163B4100EAB241 /* InfoPlist.strings */; };
+		0A2372CE16163B4100EAB241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2372CD16163B4100EAB241 /* main.m */; };
+		0A2372D216163B4100EAB241 /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2372D116163B4100EAB241 /* SGAppDelegate.m */; };
+		0A2372D416163B4100EAB241 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2372D316163B4100EAB241 /* Default.png */; };
+		0A2372D616163B4100EAB241 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2372D516163B4100EAB241 /* Default@2x.png */; };
+		0A2372D816163B4100EAB241 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2372D716163B4100EAB241 /* Default-568h@2x.png */; };
+		0A2372DB16163B4100EAB241 /* SGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2372DA16163B4100EAB241 /* SGViewController.m */; };
+		0A2372DE16163B4100EAB241 /* SGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2372DC16163B4100EAB241 /* SGViewController.xib */; };
+		0A2372E716163C0000EAB241 /* UIViewController+PJModalTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2372E616163C0000EAB241 /* UIViewController+PJModalTransform.m */; };
+		0A2372E916163D9800EAB241 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2372E816163D9800EAB241 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A2372BD16163B4000EAB241 /* PJModalTransform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJModalTransform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2372C116163B4100EAB241 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A2372C316163B4100EAB241 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A2372C516163B4100EAB241 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A2372C916163B4100EAB241 /* PJModalTransform-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PJModalTransform-Info.plist"; sourceTree = "<group>"; };
+		0A2372CB16163B4100EAB241 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A2372CD16163B4100EAB241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A2372CF16163B4100EAB241 /* PJModalTransform-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PJModalTransform-Prefix.pch"; sourceTree = "<group>"; };
+		0A2372D016163B4100EAB241 /* SGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGAppDelegate.h; sourceTree = "<group>"; };
+		0A2372D116163B4100EAB241 /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
+		0A2372D316163B4100EAB241 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0A2372D516163B4100EAB241 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0A2372D716163B4100EAB241 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0A2372D916163B4100EAB241 /* SGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGViewController.h; sourceTree = "<group>"; };
+		0A2372DA16163B4100EAB241 /* SGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGViewController.m; sourceTree = "<group>"; };
+		0A2372DD16163B4100EAB241 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SGViewController.xib; sourceTree = "<group>"; };
+		0A2372E516163C0000EAB241 /* UIViewController+PJModalTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PJModalTransform.h"; sourceTree = "<group>"; };
+		0A2372E616163C0000EAB241 /* UIViewController+PJModalTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PJModalTransform.m"; sourceTree = "<group>"; };
+		0A2372E816163D9800EAB241 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A2372BA16163B4000EAB241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2372E916163D9800EAB241 /* QuartzCore.framework in Frameworks */,
+				0A2372C216163B4100EAB241 /* UIKit.framework in Frameworks */,
+				0A2372C416163B4100EAB241 /* Foundation.framework in Frameworks */,
+				0A2372C616163B4100EAB241 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2372B216163B4000EAB241 = {
+			isa = PBXGroup;
+			children = (
+				0A2372C716163B4100EAB241 /* PJModalTransform */,
+				0A2372C016163B4100EAB241 /* Frameworks */,
+				0A2372BE16163B4000EAB241 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A2372BE16163B4000EAB241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A2372BD16163B4000EAB241 /* PJModalTransform.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A2372C016163B4100EAB241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A2372E816163D9800EAB241 /* QuartzCore.framework */,
+				0A2372C116163B4100EAB241 /* UIKit.framework */,
+				0A2372C316163B4100EAB241 /* Foundation.framework */,
+				0A2372C516163B4100EAB241 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A2372C716163B4100EAB241 /* PJModalTransform */ = {
+			isa = PBXGroup;
+			children = (
+				0A2372E416163C0000EAB241 /* PJModalTransform */,
+				0A2372D016163B4100EAB241 /* SGAppDelegate.h */,
+				0A2372D116163B4100EAB241 /* SGAppDelegate.m */,
+				0A2372D916163B4100EAB241 /* SGViewController.h */,
+				0A2372DA16163B4100EAB241 /* SGViewController.m */,
+				0A2372DC16163B4100EAB241 /* SGViewController.xib */,
+				0A2372C816163B4100EAB241 /* Supporting Files */,
+			);
+			path = PJModalTransform;
+			sourceTree = "<group>";
+		};
+		0A2372C816163B4100EAB241 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A2372C916163B4100EAB241 /* PJModalTransform-Info.plist */,
+				0A2372CA16163B4100EAB241 /* InfoPlist.strings */,
+				0A2372CD16163B4100EAB241 /* main.m */,
+				0A2372CF16163B4100EAB241 /* PJModalTransform-Prefix.pch */,
+				0A2372D316163B4100EAB241 /* Default.png */,
+				0A2372D516163B4100EAB241 /* Default@2x.png */,
+				0A2372D716163B4100EAB241 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A2372E416163C0000EAB241 /* PJModalTransform */ = {
+			isa = PBXGroup;
+			children = (
+				0A2372E516163C0000EAB241 /* UIViewController+PJModalTransform.h */,
+				0A2372E616163C0000EAB241 /* UIViewController+PJModalTransform.m */,
+			);
+			path = PJModalTransform;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A2372BC16163B4000EAB241 /* PJModalTransform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2372E116163B4100EAB241 /* Build configuration list for PBXNativeTarget "PJModalTransform" */;
+			buildPhases = (
+				0A2372B916163B4000EAB241 /* Sources */,
+				0A2372BA16163B4000EAB241 /* Frameworks */,
+				0A2372BB16163B4000EAB241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PJModalTransform;
+			productName = PJModalTransform;
+			productReference = 0A2372BD16163B4000EAB241 /* PJModalTransform.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A2372B416163B4000EAB241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SG;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Say Goodnight Software";
+			};
+			buildConfigurationList = 0A2372B716163B4000EAB241 /* Build configuration list for PBXProject "PJModalTransform" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A2372B216163B4000EAB241;
+			productRefGroup = 0A2372BE16163B4000EAB241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A2372BC16163B4000EAB241 /* PJModalTransform */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A2372BB16163B4000EAB241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2372CC16163B4100EAB241 /* InfoPlist.strings in Resources */,
+				0A2372D416163B4100EAB241 /* Default.png in Resources */,
+				0A2372D616163B4100EAB241 /* Default@2x.png in Resources */,
+				0A2372D816163B4100EAB241 /* Default-568h@2x.png in Resources */,
+				0A2372DE16163B4100EAB241 /* SGViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A2372B916163B4000EAB241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2372CE16163B4100EAB241 /* main.m in Sources */,
+				0A2372D216163B4100EAB241 /* SGAppDelegate.m in Sources */,
+				0A2372DB16163B4100EAB241 /* SGViewController.m in Sources */,
+				0A2372E716163C0000EAB241 /* UIViewController+PJModalTransform.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A2372CA16163B4100EAB241 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2372CB16163B4100EAB241 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A2372DC16163B4100EAB241 /* SGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2372DD16163B4100EAB241 /* en */,
+			);
+			name = SGViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A2372DF16163B4100EAB241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0A2372E016163B4100EAB241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A2372E216163B4100EAB241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PJModalTransform/PJModalTransform-Prefix.pch";
+				INFOPLIST_FILE = "PJModalTransform/PJModalTransform-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A2372E316163B4100EAB241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PJModalTransform/PJModalTransform-Prefix.pch";
+				INFOPLIST_FILE = "PJModalTransform/PJModalTransform-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2372B716163B4000EAB241 /* Build configuration list for PBXProject "PJModalTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2372DF16163B4100EAB241 /* Debug */,
+				0A2372E016163B4100EAB241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2372E116163B4100EAB241 /* Build configuration list for PBXNativeTarget "PJModalTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2372E216163B4100EAB241 /* Debug */,
+				0A2372E316163B4100EAB241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A2372B416163B4000EAB241 /* Project object */;
+}
